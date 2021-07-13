@@ -37,7 +37,7 @@ namespace GovernanceReminderMails
 
                 var fromAddress = new MailAddress("oersted.kube3@gmail.com", "Oersted");
                 var toAddress = new MailAddress(smtp.EmailId, "Jagadish");
-                const string fromPassword = "Hallmark@1";
+                const string fromPassword = "";
 
                 var smtpclient = new SmtpClient
                 {
